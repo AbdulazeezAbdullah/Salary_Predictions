@@ -233,7 +233,7 @@ Rtree @ file:///C:/ci/rtree_1618421015405/work
 ruamel-yaml-conda @ file:///C:/ci/ruamel_yaml_1616016898638/work
 scikit-image==0.18.3
 scikit-learn ==0.24.2
-scikit-learn-intelex==2021.20210714.120553
+scikit-learn-intelex==2021.3.0
 scipy @ file:///C:/ci/scipy_1641555170412/work
 seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
 semver==2.13.0
