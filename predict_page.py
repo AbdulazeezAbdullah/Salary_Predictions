@@ -23,9 +23,9 @@ Age_encode = data["Age_encoder"]
 
 
 def show_predict_page():
-    st.title("Software Developer Salary Prediction")
+    st.header("Software Developer Salary Prediction")
 
-    st.write("""### We need some informatuion to predict the salary""")
+    st.subheader("We need some informatuion to predict the salary")
 
 
     countries = (
