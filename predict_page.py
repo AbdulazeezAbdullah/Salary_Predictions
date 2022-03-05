@@ -1,7 +1,8 @@
 import streamlit as st
 import pickle
 import numpy as np
-
+from sklearn.preprocessing import LabelEncoder
+from sklearn.ensemble import RandomForestRegressor
 
 def load_model():
     with open('Random_Forest_Model.pkl', 'rb') as file:
@@ -99,7 +100,7 @@ def show_predict_page():
     YearsCodePro = st.slider("Num of years coded professionally", min_value=0.5, max_value=50., value=5.)   
 
 
-    input = st.button("Calculate Salary")
+    input = st.button("Predict Salary")
 
     if input:
         input = np.array([[MainBranch, Employment, Country, Education, Age1stCode, YearsCode, YearsCodePro, OrgSize, Age]])
