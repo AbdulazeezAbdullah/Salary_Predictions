@@ -4,3 +4,5 @@ pandas
 numpy
 joblib
 isort
+lib2to3
+matplotlib
