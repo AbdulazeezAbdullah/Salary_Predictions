@@ -33,7 +33,7 @@ def education_group(x):
     else:
         return "WAEC/NECO and it's equivalent worldwide"
 
-@st.cache
+@st.cache_data
 def load_data():
     file = pd.read_csv('survey_results_public.csv')
     loaded_data = file[['Country', 'EdLevel', 'YearsCodePro', 'Employment', 'ConvertedCompYearly']]
